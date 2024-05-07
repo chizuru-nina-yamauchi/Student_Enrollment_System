@@ -68,3 +68,11 @@ Develop a simple web-based student enrollment system that allows users to add, v
 - Error Handling: The application should gracefully handle and report errors.
 
 This assignment will help you understand how to integrate various components of a Spring Boot application and provide practical experience with web application development using MVC architecture.
+
+
+----
+
+### Result
+
+![pic1](./src/main/resources/pics/pic1.png)
+![pic2](./src/main/resources/pics/pic2.png)
