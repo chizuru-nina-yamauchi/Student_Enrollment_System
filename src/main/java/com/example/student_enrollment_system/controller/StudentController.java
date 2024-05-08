@@ -41,7 +41,7 @@ public class StudentController {
     }
 
     @GetMapping("/students/course")
-    public String getStudentsByCourse(@RequestParam("Course") String course, Model model) {
+    public String getStudentsByCourse(@RequestParam("course") String course, Model model) {
         List<Student> students = service.getStudentsByCourse(course);
         model.addAttribute("students", students);
         return "home";
