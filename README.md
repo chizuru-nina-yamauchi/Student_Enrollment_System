@@ -76,3 +76,8 @@ This assignment will help you understand how to integrate various components of 
 
 ![pic1](./src/main/resources/pics/pic1.png)
 ![pic2](./src/main/resources/pics/pic2.png)
+![pic3](./src/main/resources/pics/pic3.png)
+![pic4](./src/main/resources/pics/pic4.png)
+![pic5](./src/main/resources/pics/pic5.png)
+![pic6](./src/main/resources/pics/pic6.png)
+![pic7](./src/main/resources/pics/pic7.png)
