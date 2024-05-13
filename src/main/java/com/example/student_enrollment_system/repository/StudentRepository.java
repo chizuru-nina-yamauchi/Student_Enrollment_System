@@ -16,4 +16,13 @@ public interface StudentRepository extends JpaRepository<Student, Long> {
     List<Student>  findStudentsEnrolledAfter(@Param("certainDate") Date date);
 
     List<Student> findByNameContaining(String name);
+
+    @Query("SELECT s FROM Student s WHERE s.name = :name AND s.courses = :course")
+    List<Student> findByNameAndCourse(@Param("name") String name, @Param("course") String course);
+
+    @Query("SELECT s FROM Student s WHERE s.enrollmentDate BETWEEN :start AND :end")
+    List<Student> findByEnrollmentDateBetween(@Param("start") Date start, @Param("end") Date end);
+
+    @Query("SELECT s FROM Student s ORDER BY s.enrollmentDate DESC")
+    List<Student> findAllByOrderByEnrollmentDateDesc();
 }
