@@ -81,3 +81,6 @@ This assignment will help you understand how to integrate various components of 
 ![pic5](./src/main/resources/pics/pic5.png)
 ![pic6](./src/main/resources/pics/pic6.png)
 ![pic7](./src/main/resources/pics/pic7.png)
+
+- *The features added newly*:
+![pic8](./src/main/resources/pics/pic8.png)
